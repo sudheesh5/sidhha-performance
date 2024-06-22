@@ -1,0 +1,159 @@
+
+body{
+  max-width: 100%;
+}
+  #background{
+    width: 100%;
+    height: 50%;
+}
+.sub-head{
+    margin-top: 1rem;
+    font-family: "Cardo", serif;
+}
+.main-head{
+    color: red;
+    text-align: center;
+}
+.image-container {
+  position: relative;
+  
+  
+  /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.image-container img {
+  /*display: block; */
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  padding: 10px;
+ 
+  font-size: 50px; /* Adjust as needed */
+  text-align: center;
+}
+
+#navbar{
+    height: 8rem;
+    background-color: rgba(0, 0, 0,0.5);
+    opacity: 0.9; 
+    margin-top: -128px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the list items horizontally */
+}
+
+.list li {
+    display: inline-block; /* Keeps the items on the same line */
+    color: white;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    text-decoration: none;
+}
+  .heading{
+    font-weight: 850;
+    
+    padding-top: 4rem;
+  }
+
+  .images{
+ width: 45rem;   
+
+ padding-top: 2rem;
+  }
+
+.title{
+  
+  padding-top: 2rem;
+  font-family: sanchez;
+}
+
+#description{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  padding-right: 33rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+h4{
+
+  font-weight: 600;
+  font-size: 24px;
+}
+h3{
+  font-family: 'book antiqua', palatino;
+  
+  font-weight: 600;
+  font-size: 35px;
+}
+
+
+.books{
+ 
+  width: 45rem;
+ align-content: center;
+}
+.book-cover{
+  padding-left: 7rem;
+  padding-bottom: 5rem;
+  width: 38rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 12rem;
+  padding-top: 4rem; /* Adjust padding as needed */
+}
+
+.subscription {
+  letter-spacing: .08em;
+  font-family: 'poppins', sans-serif;
+  font-size: 1.35em;
+  /*margin-bottom: 1rem;*/
+}
+
+.sidebar {
+  line-height: 38px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.button{
+  letter-spacing: 0em;
+  font-family: 'poppins',sans-serif;
+ background-color: rgb(35, 41, 41);
+ color: #ffffff;
+ padding-top: 2px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    border-radius: 3px;
+}
+.selected-component{
+  padding-left: 12rem;
+  margin-top: -25rem;
+}
+
